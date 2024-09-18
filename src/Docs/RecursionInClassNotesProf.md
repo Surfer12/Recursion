@@ -93,7 +93,7 @@ public class FactorialWithIterator {
     /**
      * Constructor to initialize the number for which the factorial is to be
      * calculated.
-     * 
+     *
      * @param number The number for which the factorial is to be calculated.
      */
     public FactorialWithIterator(int number) {
@@ -102,7 +102,7 @@ public class FactorialWithIterator {
 
     /**
      * Getter method to retrieve the number.
-     * 
+     *
      * @return The number for which the factorial is to be calculated.
      */
     public int getNumber() {
@@ -111,7 +111,7 @@ public class FactorialWithIterator {
 
     /**
      * Setter method to set the number.
-     * 
+     *
      * @param number The new number for which the factorial is to be calculated.
      */
     public void setNumber(int number) {
@@ -129,7 +129,7 @@ public class FactorialWithIterator {
 
         /**
          * Checks if there are more numbers in the sequence.
-         * 
+         *
          * @return An Optional containing true if there are more numbers, false
          *         otherwise.
          */
@@ -141,7 +141,7 @@ public class FactorialWithIterator {
         /**
          * Returns the next number in the sequence. If there are no more numbers,
          * it returns an empty Optional.
-         * 
+         *
          * @return An Optional containing the next number in the sequence.
          */
         @Override
@@ -155,7 +155,7 @@ public class FactorialWithIterator {
 
     /**
      * Calculates the factorial of the number using the custom iterator.
-     * 
+     *
      * @return The factorial of the number.
      */
     public int calculateFactorial() {
@@ -166,6 +166,7 @@ public class FactorialWithIterator {
         }
         return factorial;
     }
+}
 
     /**
      * Main method to test the FactorialWithIterator class.

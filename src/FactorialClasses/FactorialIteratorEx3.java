@@ -1,3 +1,4 @@
+package FactorialClasses;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 // next method, hasNext method, remove method

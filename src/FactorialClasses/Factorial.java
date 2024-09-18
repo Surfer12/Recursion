@@ -1,3 +1,4 @@
+package FactorialClasses;
 // use only for loop
 
 public class Factorial {

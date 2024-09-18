@@ -1,3 +1,4 @@
+package FactorialClasses;
 import java.util.Iterator;
 
 // next method, hasNext method, remove method

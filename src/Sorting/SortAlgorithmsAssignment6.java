@@ -9,30 +9,43 @@ import java.util.Arrays;
 public class SortAlgorithmsAssignment6 {
 
     /**
-     * Performs insertion sort on the given array.
-     * Recieves an array of integers 
-     * i counter is initialized to 1 
-     * j counter is initialized to i - 1
-     * key is initialized to array[i]
-     * This key is used to compare with the previous elements in the array
-     * If the key is less than the previous element, then the previous element is shifted to the right
-     * This process is repeated until the key is greater than the previous element
-     * The key is then inserted into the array
+     * Performs insertion sort on the given array of integers.
      * 
+     * Algorithm steps:
+     * 1. Iterate through the array starting from the second element (index 1).
+     * 2. For each iteration:
+     *    a. Store the current element as the 'key'.
+     *    b. Compare the key with the previous elements in the sorted portion.
+     *    c. Shift larger elements to the right to make space for the key.
+     *    d. Insert the key in its correct position in the sorted portion.
+     * 
+     * Time complexity:
+     * - Worst case: O(n^2) when the array is in reverse order.
+     * - Best case: O(n) when the array is already sorted.
+     * - Average case: O(n^2) for random order.
+     * 
+     * Space complexity: O(1) as it uses a constant amount of additional space.
      *
      * @param array the array to be sorted
      */
     public static void insertionSort(int[] array) {
         int n = array.length; 
-        for(int i = 1; i < n; i++)//noinspection DuplicatedCode
+        // Time Complexity: O(n^2) in the worst case, O(n) in the best case
+        // Space Complexity: O(1) as it uses a constant amount of additional space
+        
+        // Loop through each element in the array starting from the second element
+        for(int i = 1; i < n; i++) // Start from the second element (index 1)
         {
-            int key = array[i]; 
-            int j = i - 1;
-            while(j >= 0 && array[j] > key){
-                array[j + 1] = array[j];
-                j = j - 1;
+            int key = array[i]; // The current element to be positioned
+            int j = i - 1; // Start comparing with the previous element
+            
+            // Shift elements of the sorted segment to the right to make space for the key
+            while(j >= 0 && array[j] > key) {
+                array[j + 1] = array[j]; // Move the larger element one position ahead
+                j = j - 1; // Move to the previous element
             }
-            array[j + 1] = key;
+            // Insert the key at its correct position
+            array[j + 1] = key; // Place the key in the correct position
         }
     }
 

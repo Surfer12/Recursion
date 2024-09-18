@@ -1,10 +1,17 @@
+package Sorting;
+
+import java.util.Arrays;
+
+
 /**
  * Assignment 6: Implement insertion and selection sort algorithms in Java.
  * This class provides methods to perform insertion sort and selection sort
  * on an array of integers, along with an analysis of their time complexity.
  */
-package Docs;
-import java.util.Arrays;
+
+
+
+
 
 public class SortAlgorithmsAssignment6 {
 

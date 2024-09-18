@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="recursionsortinginclass.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-18T14:03:44" hostname="RYANS-11TH-GEN-" time="0.014">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="recursionsortinginclass.AppTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

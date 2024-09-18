@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="recursionsortinginclass.FactorialIteratorEx2Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-09-18T14:03:44" hostname="RYANS-11TH-GEN-" time="0.012">
+  <properties/>
+  <testcase name="testNext()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.003"/>
+  <testcase name="testFactorialUsingIterator()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.001"/>
+  <testcase name="testFactorialUsingRecursion()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.001"/>
+  <testcase name="testHasNext()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.001"/>
+  <testcase name="testFactorialUsingIteration()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.001"/>
+  <testcase name="testRemove()" classname="recursionsortinginclass.FactorialIteratorEx2Test" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

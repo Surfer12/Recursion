@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="recursionsortinginclass.SortAlgorithmsAssignment6Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-09-18T14:03:44" hostname="RYANS-11TH-GEN-" time="0.021">
+  <properties/>
+  <testcase name="selectionSort_handlesReverseSortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.009"/>
+  <testcase name="insertionSort_handlesReverseSortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="selectionSort_handlesEmptyArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="selectionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="selectionSort_handlesSingleElementArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
+  <testcase name="insertionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="insertionSort_handlesSingleElementArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="insertionSort_sortsArrayCorrectly()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
+  <testcase name="selectionSort_sortsArrayCorrectly()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="insertionSort_handlesEmptyArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
+  <system-out><![CDATA[Step 1: [1, 4, 3, 2, 5]
+Step 2: [1, 2, 3, 4, 5]
+Step 3: [1, 2, 3, 4, 5]
+Step 4: [1, 2, 3, 4, 5]
+Step 1: [1, 2, 3, 4, 5]
+Step 2: [1, 2, 3, 4, 5]
+Step 3: [1, 2, 3, 4, 5]
+Step 4: [1, 2, 3, 4, 5]
+Step 1: [1, 2, 9, 5, 5, 6]
+Step 2: [1, 2, 9, 5, 5, 6]
+Step 3: [1, 2, 5, 9, 5, 6]
+Step 4: [1, 2, 5, 5, 9, 6]
+Step 5: [1, 2, 5, 5, 6, 9]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

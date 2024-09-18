@@ -1,5 +1,4 @@
-package FactorialClasses;
-// use only for loop
+package recursionsortinginclass.FactorialClasses;
 
 public class Factorial {
     private int number;
@@ -23,10 +22,5 @@ public class Factorial {
             result *= i; // Multiply result by i to calculate the factorial. 
         }
         return result; // Return the factorial
-    }
-
-    public static void main(String[] args) {
-        Factorial factorial = new Factorial(5);
-        System.out.println(factorial.calculateFactorial());
     }
 }

@@ -1,7 +1,6 @@
-package Sorting;
+package recursionsortinginclass.Sorting; // Ensure this matches the directory structure
 
 import java.util.Arrays;
-
 
 /**
  * Assignment 6: Implement insertion and selection sort algorithms in Java.

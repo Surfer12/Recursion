@@ -1,4 +1,5 @@
-package FactorialClasses;
+package recursionsortinginclass.FactorialClasses;
+
 import java.util.Iterator;
 
 // next method, hasNext method, remove method
@@ -42,6 +43,4 @@ public class FactorialIteratorEx2 implements Iterator<Integer> {
         }
         return aBaseCasePlaceHolder;
     }
-
-    
 }

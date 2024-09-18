@@ -1,8 +1,8 @@
-package FactorialClasses;
+package recursionsortinginclass.FactorialClasses;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-// next method, hasNext method, remove method
-//impliments iterator interface to calculate the factorial of a given number
+
 public class FactorialIteratorEx3 implements Iterator<Integer> {
     private int aNumberForFactorialCalculation;
     private int aBaseCasePlaceHolder = 1;
@@ -35,12 +35,12 @@ public class FactorialIteratorEx3 implements Iterator<Integer> {
         return n * factorial(n - 1); // Corrected recursion
     }
 
-public int theFactorialOfTheNumberUsingIterator() {
-    aBaseCasePlaceHolder = 1; // Reset before calculation
-    Iterator<Integer> iterator = new FactorialIteratorEx3(aNumberForFactorialCalculation);
-    while (iterator.hasNext()) {
-        aBaseCasePlaceHolder *= iterator.next();
-    }
+    public int theFactorialOfTheNumberUsingIterator() {
+        aBaseCasePlaceHolder = 1; // Reset before calculation
+        Iterator<Integer> iterator = new FactorialIteratorEx3(aNumberForFactorialCalculation);
+        while (iterator.hasNext()) {
+            aBaseCasePlaceHolder *= iterator.next();
+        }
         return aBaseCasePlaceHolder;
     }
 }

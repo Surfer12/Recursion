@@ -1,6 +1,8 @@
-package Sorting;
+package recursionsortinginclass;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import recursionsortinginclass.Sorting.SortAlgorithmsAssignment6;
 
 public class SortAlgorithmsAssignment6Test {
 

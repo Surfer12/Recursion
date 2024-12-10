@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="recursionsortinginclass.SortAlgorithmsAssignment6Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-09-18T14:03:44" hostname="RYANS-11TH-GEN-" time="0.021">
+<testsuite name="recursionsortinginclass.SortAlgorithmsAssignment6Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-12-10T20:29:47" hostname="Ryans-MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="selectionSort_handlesReverseSortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.009"/>
+  <testcase name="selectionSort_handlesReverseSortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.004"/>
   <testcase name="insertionSort_handlesReverseSortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
-  <testcase name="selectionSort_handlesEmptyArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
-  <testcase name="selectionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="selectionSort_handlesEmptyArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
+  <testcase name="selectionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
   <testcase name="selectionSort_handlesSingleElementArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
-  <testcase name="insertionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
-  <testcase name="insertionSort_handlesSingleElementArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
+  <testcase name="insertionSort_handlesAlreadySortedArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
+  <testcase name="insertionSort_handlesSingleElementArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
   <testcase name="insertionSort_sortsArrayCorrectly()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
   <testcase name="selectionSort_sortsArrayCorrectly()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.001"/>
   <testcase name="insertionSort_handlesEmptyArray()" classname="recursionsortinginclass.SortAlgorithmsAssignment6Test" time="0.0"/>
